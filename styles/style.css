@@ -5,15 +5,15 @@
 
 .container-block {
     background-color: rgb(213, 248, 14);
-    width: 320px;
-    height: 550px;
+    width: 420px;
+    height: 800px;
     margin-right: 20px;
 }
 
 .banner {
     background-color: rgb(145, 145, 145);
-    height: 300px;
-    width: 1000px;
+    height: 500px;
+    width: 1250px;
 }
 
 .main {
@@ -21,7 +21,7 @@
 }
 
 .title {
-    margin-top: 25px;
+    margin-top: 45px;
 }
 
 .item {
@@ -30,16 +30,17 @@
 }
 
 .item-block {
-    border: 3px solid #000;
-    width: 175px;
-    height: 175px;
+    border: 5px solid #000;
+    width: 200px;
+    height: 200px;
 }
+
+/* MEDIA 1200 - 768 ****************************************/
 
 @media (max-width: 1200px) and (min-width: 768px) {
     
     .container {
         display: block;
-        
     }
 
     .container-block {
@@ -56,24 +57,56 @@
         margin-top: 15px;
     }
 
+    .item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .title {
         margin-top: 25px;
     }
 
     .item-block {
         border: 3px solid #000;
-        width: 100%;
-        height: 155px;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 15px;
     }
 
 }
 
+/* MEDIA 768 **********************************************/
+
 @media (max-width: 768px) {
 
+    .container {
+        display: block;
+    }
+    
+    .container-block {
+        background-color: rgb(213, 248, 14);
+        width: 100%;
+        height: 20px;
+        margin-right: 20px;
+    }
+
+    .item {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    
     .item-block {
         border: 3px solid rgb(238, 7, 7);
-        width: 100%;
-        height: 25vh;
+        width: 250px;
+        height: 250px;
+        margin-bottom: 15px;
+
     }
+
+    .banner {
+        display: none;
+    }   
+
 
 }
