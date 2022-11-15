@@ -1,3 +1,13 @@
+.block-top {
+    background-color: rgb(6, 80, 238);
+    height: 30px;
+}
+
+.block-bottom {
+    background-color: #000;
+    height: 50px;
+}
+
 .container {
     display: flex;
     margin: 20px;
@@ -6,13 +16,13 @@
 .container-block {
     background-color: rgb(213, 248, 14);
     width: 420px;
-    height: 800px;
+    height: 700px;
     margin-right: 20px;
 }
 
 .banner {
     background-color: rgb(145, 145, 145);
-    height: 500px;
+    height: 400px;
     width: 1250px;
 }
 
@@ -22,6 +32,7 @@
 
 .title {
     margin-top: 45px;
+    margin-bottom: 25px;
 }
 
 .item {
